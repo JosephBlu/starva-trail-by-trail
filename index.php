@@ -13,12 +13,12 @@
 			<!-- Name, Age, Occupation,Technology, Needs, Goals-->
 			<h2>Persona</h2>
 				<ul>
-				<li><strong>Name:</strong> Morrissey, Steve</li>
-				<li><strong>Age:</strong> 27 years-old</li>
-				<li><strong>Occupation:</strong> Works in Bloomingdale's men's fashionable department in Palo Alto, Calif.</li>
-				<li><strong>Technology:</strong> Uses Iphone 7.</li>
-				<li><strong>Needs:</strong> Steve biggest hobby is competing in single-day and time-trial bicycle races. So he needs to keep track of distance and routes he rides. And, he is also appearance and health conscious, so working in in Palo Alto, he is able to to ride his bicycle to and from work.</li>
-				<li><strong>Goals:</strong> He lives in a large cyclists community, so he wants to see other routes where other cyclists have rode on or discovered.</li>
+					<li><strong>Name:</strong> Morrissey, Steve</li>
+					<li><strong>Age:</strong> 27 years-old</li>
+					<li><strong>Occupation:</strong> Works in Bloomingdale's men's fashionable department in Palo Alto, Calif.</li>
+					<li><strong>Technology:</strong> Uses Iphone 7.</li>
+					<li><strong>Needs:</strong> Steve's biggest hobby is competing in single-day and time-trial bicycle races. So he needs to keep track of distance and routes he rides. And, he is also appearance and health conscious, so working in in Palo Alto, he is able to to ride his bicycle to and from work.</li>
+					<li><strong>Goals:</strong> He lives in a large cyclists community, so he wants to see other routes where other cyclists have rode on or discovered.</li>
 				</ul>
 
 			<h2>Use Case</h2>
@@ -35,6 +35,31 @@
 				<ul><strong>6.</strong> Taps "Finish" button after reaching destination.</ul>
 				<ul><strong>7.</strong> Looks at progress on screen than presses "Save"</ul>
 				<ul><strong>8.</strong> Data saves into app along with map trail.</ul>
+
+			<h2>Conceptual Model</h2>
+			<ul>
+				<li>Profile</li>
+					<ol></ol>
+					<ol></ol>
+					<ol></ol>
+				<li>Start</li>
+					<ol></ol>
+					<ol></ol>
+					<ol></ol>
+				<li>Continue</li>
+					<ol></ol>
+					<ol></ol>
+					<ol></ol>
+				<li>Finish</li>
+					<ol></ol>
+					<ol></ol>
+					<ol></ol>
+				<li>Save</li>
+					<ol></ol>
+					<ol></ol>
+					<ol></ol>
+			</ul>
+
 		</main>
 	</body>
 </html>
