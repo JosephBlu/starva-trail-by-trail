@@ -27,37 +27,32 @@
 			<p>He reaches his destination and on his phone taps the "Finish" button. a screen comes up and shows the path he rode, how many miles he did, the time it took from start to finish, and how many stops he made.</p>
 
 			<h2>Interaction Flow</h2>
-				<ul><strong>1.</strong> Open app</ul>
-				<ul><strong>2.</strong> At main menu, taps "Start".</ul>
-				<ul><strong>3.</strong> live feed map screen comes up.</ul>
-				<ul><strong>4.</strong> Taps "Start" and begins to ride</ul>
-				<ul><strong>5.</strong> Taps "Continue" button after break.</ul>
-				<ul><strong>6.</strong> Taps "Finish" button after reaching destination.</ul>
-				<ul><strong>7.</strong> Looks at progress on screen than presses "Save"</ul>
-				<ul><strong>8.</strong> Data saves into app along with map trail.</ul>
+			<!-- jordan test -->
+			<ol>
+				<li>Open app</li>
+				<li>At main menu, taps "Start"</li>
 
+
+			<!-- end test -->
+
+
+				<li>live feed map screen comes up.</li>
+				<li>Taps "Start" and begins to ride</li>
+				<li>Taps "Continue" button after break.</li>
+				<li>Taps "Finish" button after reaching destination.</li>
+				<li>Looks at progress on screen than presses "Save"</li>
+				<li>Data saves into app along with map trail.</li>
+			</ol>
 			<h2>Conceptual Model</h2>
 			<ul>
-				<li>Profile</li>
+				<li>Trail</li>
+					<ol>coordinates</ol>
+					<ol>locations</ol>
+					<ol>profileID (primary)</ol>
+				<li>Trail Segment</li>
 					<ol></ol>
-					<ol></ol>
-					<ol></ol>
-				<li>Start</li>
-					<ol></ol>
-					<ol></ol>
-					<ol></ol>
-				<li>Continue</li>
-					<ol></ol>
-					<ol></ol>
-					<ol></ol>
-				<li>Finish</li>
-					<ol></ol>
-					<ol></ol>
-					<ol></ol>
-				<li>Save</li>
-					<ol></ol>
-					<ol></ol>
-					<ol></ol>
+					<ol>results collection</ol>
+					<ol>time Collection</ol>
 			</ul>
 
 		</main>
