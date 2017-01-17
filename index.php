@@ -45,14 +45,29 @@
 			</ol>
 			<h2>Conceptual Model</h2>
 			<ul>
-				<li>Trail</li>
-					<ol>coordinates</ol>
-					<ol>locations</ol>
-					<ol>profileID (primary)</ol>
-				<li>Trail Segment</li>
-					<ol></ol>
-					<ol>results collection</ol>
-					<ol>time Collection</ol>
+				<li><strong>Profile</strong></li>
+					<ol>profileId</ol>
+					<ol>trail</ol>
+					<ol>profileEmail</ol>
+					<ol>profileName</ol>
+
+				<li><strong>Trail</strong></li>
+					<ol>trailProfileId</ol>
+					<ol>trailStart</ol>
+					<ol>trailEnd</ol>
+					<ol>trailId</ol>
+
+				<li><strong>Segment</strong></li>
+					<ol>segementProfileId</ol>
+					<ol>segmentStart</ol>
+					<ol>segementEnd</ol>
+					<ol>segementId</ol>
+
+				<li><strong>Trail Segement</strong></li>
+					<ol>segementId</ol>
+					<ol>trailId</ol>
+					<ol>ProfileId</ol>
+
 			</ul>
 
 		</main>
