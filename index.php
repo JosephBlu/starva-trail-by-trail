@@ -46,29 +46,34 @@
 			<h2>Conceptual Model</h2>
 			<ul>
 				<li><strong>Profile</strong></li>
-					<ol>profileId</ol>
-					<ol>trail</ol>
+					<ol>profileId (primary key)</ol>
 					<ol>profileEmail</ol>
 					<ol>profileName</ol>
 
 				<li><strong>Trail</strong></li>
-					<ol>trailProfileId</ol>
+					<ol>trailId (primary key)</ol>
+					<ol>trailProfileId (foreign key)</ol>
 					<ol>trailStart</ol>
 					<ol>trailEnd</ol>
-					<ol>trailId</ol>
 
 				<li><strong>Segment</strong></li>
-					<ol>segementProfileId</ol>
+					<ol>segmentId (primary key)</ol>
+					<ol>segmentProfileId (foreign Key)</ol>
 					<ol>segmentStart</ol>
-					<ol>segementEnd</ol>
-					<ol>segementId</ol>
+					<ol>segmentEnd</ol>
 
-				<li><strong>Trail Segement</strong></li>
-					<ol>segementId</ol>
-					<ol>trailId</ol>
-					<ol>ProfileId</ol>
+				<li><strong>Trail Segment</strong></li>
+					<ol>trailId (foreign Key)</ol>
+					<ol>segmentId (foreign Key)</ol>
 
 			</ul>
+			<h2><strong>Relationship</strong></h2>
+				<ul>
+					<li>profile 1-to-n trail</li>
+					<li>trail 1-to-n segment</li>
+					<li>profile 1-to-m trail segment </li>
+				</ul>
+
 
 		</main>
 	</body>
