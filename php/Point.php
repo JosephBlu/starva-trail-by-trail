@@ -11,20 +11,38 @@ class Point {
 	 *latitude are start and finish point.
 	 * @var float $latitude
 	 **/
-	private $latitude;
+	private $setLatitude;
 	/**
 	 *longitude are start and finish point.private
 	 * @var float $longitude
 	**/
-	private $longitude;
+	private $setLongitude;
 	/**
 	 *constructor for point of longitude and latitude
 	 * @param float $latitude Latitude
 	 * @param float $longitude Longitude
 	 **/
-	function __construct( $longitude= newX, $latitude=newY) {
+	function __construct( $setLongitude=null, $setLatitude=null) {
 
-			$this->setLongitude= $longitude;
-			$this->setLatitude= $latitude;
+		$this->setLongitude = $setLongitude;
+		$this->setLatitude = $setLatitude;
+	}
+
+		/** accessor method for latitude
+		 *
+		 *
+		 **/
+		public function setLatitude() {
+			return($this-> lat);
+		}
+
+
+		/**
+		 * mutator method for Latitude
+		 **/
+		public function Latitude($setLatitude= null) {
+
+
+		}
 }
 
